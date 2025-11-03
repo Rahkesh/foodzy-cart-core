@@ -1,4 +1,12 @@
 import { Product } from '@/store/cartStore';
+import lettuceOrganic from '@/assets/products/lettuce-organic.jpg';
+import corn from '@/assets/products/corn.jpg';
+import cauliflower from '@/assets/products/cauliflower.jpg';
+import greenApples from '@/assets/products/green-apples.jpg';
+import lettuceGreen from '@/assets/products/lettuce-green.jpg';
+import eggplant from '@/assets/products/eggplant.jpg';
+import potatoes from '@/assets/products/potatoes.jpg';
+import redCapsicum from '@/assets/products/red-capsicum.jpg';
 
 export const products: Product[] = [
   {
@@ -6,7 +14,7 @@ export const products: Product[] = [
     name: 'Fresh Indian Organic Lettuce',
     price: 4.99,
     originalPrice: 6.99,
-    image: 'https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=500&h=500&fit=crop',
+    image: lettuceOrganic,
     category: 'Vegetables',
     rating: 4,
     weight: '1 kg',
@@ -17,7 +25,7 @@ export const products: Product[] = [
     id: '2',
     name: 'Corn',
     price: 3.49,
-    image: 'https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=500&h=500&fit=crop',
+    image: corn,
     category: 'Vegetables',
     rating: 4,
     weight: '500g',
@@ -27,7 +35,7 @@ export const products: Product[] = [
     id: '3',
     name: 'Fresh Cauliflower',
     price: 3.99,
-    image: 'https://images.unsplash.com/photo-1568584711271-0e1e3c0c2c1e?w=500&h=500&fit=crop',
+    image: cauliflower,
     category: 'Vegetables',
     rating: 5,
     weight: '1 kg',
@@ -38,7 +46,7 @@ export const products: Product[] = [
     name: 'Green Apple (4 pcs)',
     price: 6.99,
     originalPrice: 8.99,
-    image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=500&h=500&fit=crop',
+    image: greenApples,
     category: 'Fruits',
     rating: 4,
     weight: '4 pcs',
@@ -49,7 +57,7 @@ export const products: Product[] = [
     name: 'Green Lettuce',
     price: 3.49,
     originalPrice: 4.99,
-    image: 'https://images.unsplash.com/photo-1640958904159-51972a1729a2?w=500&h=500&fit=crop',
+    image: lettuceGreen,
     category: 'Vegetables',
     rating: 4,
     weight: '500g',
@@ -59,7 +67,7 @@ export const products: Product[] = [
     id: '6',
     name: 'Eggplant',
     price: 4.49,
-    image: 'https://images.unsplash.com/photo-1659261200833-ec6ab1b50dde?w=500&h=500&fit=crop',
+    image: eggplant,
     category: 'Vegetables',
     rating: 4,
     weight: '1 kg',
@@ -70,7 +78,7 @@ export const products: Product[] = [
     name: 'Big Potatoes',
     price: 2.99,
     originalPrice: 3.99,
-    image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=500&h=500&fit=crop',
+    image: potatoes,
     category: 'Vegetables',
     rating: 5,
     weight: '2 kg',
@@ -80,7 +88,7 @@ export const products: Product[] = [
     id: '8',
     name: 'Red Capsicum',
     price: 5.49,
-    image: 'https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=500&h=500&fit=crop',
+    image: redCapsicum,
     category: 'Vegetables',
     rating: 4,
     weight: '500g',

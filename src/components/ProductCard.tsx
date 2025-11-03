@@ -24,10 +24,15 @@ export const ProductCard = ({ product }: ProductCardProps) => {
     ? Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)
     : 0;
 
+  const handleCardClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigate(`/product/${product.id}`);
+  };
+
   return (
     <div 
       className="group bg-card border rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300 cursor-pointer"
-      onClick={() => navigate(`/product/${product.id}`)}
+      onClick={handleCardClick}
     >
       <div className="relative overflow-hidden aspect-square bg-muted">
         {discount > 0 && (
